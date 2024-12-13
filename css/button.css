@@ -1,6 +1,6 @@
 .button {
     display: inline-block;
-    padding: 4rem;
+    padding: 3rem;
     border-radius: 10rem;
     color: var(--cor1);
     text-transform: uppercase;
