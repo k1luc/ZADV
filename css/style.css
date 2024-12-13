@@ -143,6 +143,7 @@
     flex-flow: column wrap;
     justify-content: center;
     min-height: 100vh;
+
 }
 
 .grid {
@@ -286,6 +287,10 @@
         display: none;
     }
 
+    .sobre-content {
+    justify-content: center;
+    }
+
 
     /* FOOTER */
     .footer {
@@ -300,6 +305,7 @@
         flex-direction: column;
         padding-top: 12rem;
         margin-right: 2rem;
+        display: block;
     }
 
     .intro-img {
@@ -307,8 +313,18 @@
     }
 
 
+    .grid-one-content {
+        padding-left: 2rem;
+    }
+
     .grid{
-        display: none;
+        grid-template-columns: 1fr;
+        max-width: 80%;
+        align-items: center;
+    }
+    
+    .grid-one-content h2 {
+        font-size: 3rem;
     }
 
 }
