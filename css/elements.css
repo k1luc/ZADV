@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta+Mahee:wght@200;300;400;500;600;700;800&display=swap');
+
+@font-face {
+    font-family: 'Rozonova';
+    src: url('../assets/fonts/RozanovaHUM-Demo-Thin.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Mukta Mahee", sans-serif;
+    font-size: 2rem;
+    background-color: var(--cor3)
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Mukta Mahee", sans-serif;
+}
+
+h1 {
+    font-size: 6rem;
+}
+h2 {
+    font-size: 5.5rem;
+}
+h3 {
+    font-size: 5rem;
+}
+h4 {
+    font-size: 4.5rem;
+}
+h5 {
+    font-size: 4rem;
+}
+h6 {
+    font-size: 3.5rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin-bottom: 3rem;
+}
+
